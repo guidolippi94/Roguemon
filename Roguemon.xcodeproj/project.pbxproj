@@ -7,25 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A7511EBA1CA1A6F900BAA76A /* ResourcePath.mm in Sources */ = {isa = PBXBuildFile; fileRef = A7511EB91CA1A6F900BAA76A /* ResourcePath.mm */; };
 		A7511EBD1CA1A6F900BAA76A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A7511EBC1CA1A6F900BAA76A /* main.cpp */; };
-		A7511EC01CA1A6F900BAA76A /* cute_image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7511EBF1CA1A6F900BAA76A /* cute_image.jpg */; };
-		A7511EC21CA1A6F900BAA76A /* nice_music.ogg in Resources */ = {isa = PBXBuildFile; fileRef = A7511EC11CA1A6F900BAA76A /* nice_music.ogg */; };
-		A7511EC41CA1A6F900BAA76A /* sansation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A7511EC31CA1A6F900BAA76A /* sansation.ttf */; };
-		A7511EC61CA1A6F900BAA76A /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A7511EC51CA1A6F900BAA76A /* icon.png */; };
 		A7511ECE1CA1ABF600BAA76A /* Character.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A7511ECC1CA1ABF600BAA76A /* Character.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A7511EB41CA1A6F900BAA76A /* Roguemon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Roguemon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7511EB81CA1A6F900BAA76A /* Roguemon-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Roguemon-Info.plist"; sourceTree = "<group>"; };
-		A7511EB91CA1A6F900BAA76A /* ResourcePath.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ResourcePath.mm; sourceTree = "<group>"; };
-		A7511EBB1CA1A6F900BAA76A /* ResourcePath.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ResourcePath.hpp; sourceTree = "<group>"; };
 		A7511EBC1CA1A6F900BAA76A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		A7511EBF1CA1A6F900BAA76A /* cute_image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cute_image.jpg; sourceTree = "<group>"; };
-		A7511EC11CA1A6F900BAA76A /* nice_music.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = nice_music.ogg; sourceTree = "<group>"; };
-		A7511EC31CA1A6F900BAA76A /* sansation.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = sansation.ttf; sourceTree = "<group>"; };
-		A7511EC51CA1A6F900BAA76A /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 		A7511ECC1CA1ABF600BAA76A /* Character.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Character.cpp; sourceTree = "<group>"; };
 		A7511ECD1CA1ABF600BAA76A /* Character.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Character.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -60,8 +49,6 @@
 		A7511EB61CA1A6F900BAA76A /* Roguemon */ = {
 			isa = PBXGroup;
 			children = (
-				A7511EB91CA1A6F900BAA76A /* ResourcePath.mm */,
-				A7511EBB1CA1A6F900BAA76A /* ResourcePath.hpp */,
 				A7511EBC1CA1A6F900BAA76A /* main.cpp */,
 				A7511ECC1CA1ABF600BAA76A /* Character.cpp */,
 				A7511ECD1CA1ABF600BAA76A /* Character.hpp */,
@@ -82,10 +69,6 @@
 		A7511EBE1CA1A6F900BAA76A /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				A7511EBF1CA1A6F900BAA76A /* cute_image.jpg */,
-				A7511EC11CA1A6F900BAA76A /* nice_music.ogg */,
-				A7511EC31CA1A6F900BAA76A /* sansation.ttf */,
-				A7511EC51CA1A6F900BAA76A /* icon.png */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -147,10 +130,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A7511EC61CA1A6F900BAA76A /* icon.png in Resources */,
-				A7511EC41CA1A6F900BAA76A /* sansation.ttf in Resources */,
-				A7511EC21CA1A6F900BAA76A /* nice_music.ogg in Resources */,
-				A7511EC01CA1A6F900BAA76A /* cute_image.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -179,7 +158,6 @@
 			files = (
 				A7511ECE1CA1ABF600BAA76A /* Character.cpp in Sources */,
 				A7511EBD1CA1A6F900BAA76A /* main.cpp in Sources */,
-				A7511EBA1CA1A6F900BAA76A /* ResourcePath.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,6 +295,7 @@
 				A7511ECB1CA1A6F900BAA76A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
