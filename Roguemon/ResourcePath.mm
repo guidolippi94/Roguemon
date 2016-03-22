@@ -50,3 +50,6 @@ std::string resourcePath(void)
 
     return rpath;
 }
+
+
+// pene
