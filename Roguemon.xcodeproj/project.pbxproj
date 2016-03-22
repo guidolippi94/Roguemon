@@ -13,6 +13,7 @@
 		A7511EC21CA1A6F900BAA76A /* nice_music.ogg in Resources */ = {isa = PBXBuildFile; fileRef = A7511EC11CA1A6F900BAA76A /* nice_music.ogg */; };
 		A7511EC41CA1A6F900BAA76A /* sansation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A7511EC31CA1A6F900BAA76A /* sansation.ttf */; };
 		A7511EC61CA1A6F900BAA76A /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A7511EC51CA1A6F900BAA76A /* icon.png */; };
+		A7511ECE1CA1ABF600BAA76A /* Character.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A7511ECC1CA1ABF600BAA76A /* Character.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,8 @@
 		A7511EC11CA1A6F900BAA76A /* nice_music.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = nice_music.ogg; sourceTree = "<group>"; };
 		A7511EC31CA1A6F900BAA76A /* sansation.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = sansation.ttf; sourceTree = "<group>"; };
 		A7511EC51CA1A6F900BAA76A /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		A7511ECC1CA1ABF600BAA76A /* Character.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Character.cpp; sourceTree = "<group>"; };
+		A7511ECD1CA1ABF600BAA76A /* Character.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Character.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +63,8 @@
 				A7511EB91CA1A6F900BAA76A /* ResourcePath.mm */,
 				A7511EBB1CA1A6F900BAA76A /* ResourcePath.hpp */,
 				A7511EBC1CA1A6F900BAA76A /* main.cpp */,
+				A7511ECC1CA1ABF600BAA76A /* Character.cpp */,
+				A7511ECD1CA1ABF600BAA76A /* Character.hpp */,
 				A7511EBE1CA1A6F900BAA76A /* Resources */,
 				A7511EB71CA1A6F900BAA76A /* Supporting Files */,
 			);
@@ -172,6 +177,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7511ECE1CA1ABF600BAA76A /* Character.cpp in Sources */,
 				A7511EBD1CA1A6F900BAA76A /* main.cpp in Sources */,
 				A7511EBA1CA1A6F900BAA76A /* ResourcePath.mm in Sources */,
 			);
