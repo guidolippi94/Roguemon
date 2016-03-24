@@ -7,11 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A5611C6F1CA423F2003F5049 /* Weapon.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5611C6D1CA423F2003F5049 /* Weapon.cpp */; };
+		A5611C721CA42492003F5049 /* Map.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5611C701CA42492003F5049 /* Map.cpp */; };
+		A5611C751CA424AA003F5049 /* Music.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5611C731CA424AA003F5049 /* Music.cpp */; };
+		A5611C781CA424B9003F5049 /* Elf.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5611C761CA424B9003F5049 /* Elf.cpp */; };
+		A5611C7B1CA42505003F5049 /* Druid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5611C791CA42505003F5049 /* Druid.cpp */; };
+		A5611C7E1CA42523003F5049 /* Paladin.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5611C7C1CA42523003F5049 /* Paladin.cpp */; };
+		A5611C811CA4252F003F5049 /* Tile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5611C7F1CA4252F003F5049 /* Tile.cpp */; };
 		A7511EBD1CA1A6F900BAA76A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A7511EBC1CA1A6F900BAA76A /* main.cpp */; };
 		A7511ECE1CA1ABF600BAA76A /* Character.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A7511ECC1CA1ABF600BAA76A /* Character.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A5611C6D1CA423F2003F5049 /* Weapon.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Weapon.cpp; sourceTree = "<group>"; };
+		A5611C6E1CA423F2003F5049 /* Weapon.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Weapon.hpp; sourceTree = "<group>"; };
+		A5611C701CA42492003F5049 /* Map.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Map.cpp; sourceTree = "<group>"; };
+		A5611C711CA42492003F5049 /* Map.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Map.hpp; sourceTree = "<group>"; };
+		A5611C731CA424AA003F5049 /* Music.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Music.cpp; sourceTree = "<group>"; };
+		A5611C741CA424AA003F5049 /* Music.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Music.hpp; sourceTree = "<group>"; };
+		A5611C761CA424B9003F5049 /* Elf.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Elf.cpp; sourceTree = "<group>"; };
+		A5611C771CA424B9003F5049 /* Elf.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Elf.hpp; sourceTree = "<group>"; };
+		A5611C791CA42505003F5049 /* Druid.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Druid.cpp; sourceTree = "<group>"; };
+		A5611C7A1CA42505003F5049 /* Druid.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Druid.hpp; sourceTree = "<group>"; };
+		A5611C7C1CA42523003F5049 /* Paladin.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Paladin.cpp; sourceTree = "<group>"; };
+		A5611C7D1CA42523003F5049 /* Paladin.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Paladin.hpp; sourceTree = "<group>"; };
+		A5611C7F1CA4252F003F5049 /* Tile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Tile.cpp; sourceTree = "<group>"; };
+		A5611C801CA4252F003F5049 /* Tile.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Tile.hpp; sourceTree = "<group>"; };
 		A7511EB41CA1A6F900BAA76A /* Roguemon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Roguemon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7511EB81CA1A6F900BAA76A /* Roguemon-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Roguemon-Info.plist"; sourceTree = "<group>"; };
 		A7511EBC1CA1A6F900BAA76A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
@@ -52,6 +73,20 @@
 				A7511EBC1CA1A6F900BAA76A /* main.cpp */,
 				A7511ECC1CA1ABF600BAA76A /* Character.cpp */,
 				A7511ECD1CA1ABF600BAA76A /* Character.hpp */,
+				A5611C731CA424AA003F5049 /* Music.cpp */,
+				A5611C741CA424AA003F5049 /* Music.hpp */,
+				A5611C701CA42492003F5049 /* Map.cpp */,
+				A5611C791CA42505003F5049 /* Druid.cpp */,
+				A5611C7A1CA42505003F5049 /* Druid.hpp */,
+				A5611C711CA42492003F5049 /* Map.hpp */,
+				A5611C761CA424B9003F5049 /* Elf.cpp */,
+				A5611C7F1CA4252F003F5049 /* Tile.cpp */,
+				A5611C801CA4252F003F5049 /* Tile.hpp */,
+				A5611C7C1CA42523003F5049 /* Paladin.cpp */,
+				A5611C7D1CA42523003F5049 /* Paladin.hpp */,
+				A5611C771CA424B9003F5049 /* Elf.hpp */,
+				A5611C6D1CA423F2003F5049 /* Weapon.cpp */,
+				A5611C6E1CA423F2003F5049 /* Weapon.hpp */,
 				A7511EBE1CA1A6F900BAA76A /* Resources */,
 				A7511EB71CA1A6F900BAA76A /* Supporting Files */,
 			);
@@ -156,8 +191,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5611C811CA4252F003F5049 /* Tile.cpp in Sources */,
+				A5611C751CA424AA003F5049 /* Music.cpp in Sources */,
 				A7511ECE1CA1ABF600BAA76A /* Character.cpp in Sources */,
+				A5611C6F1CA423F2003F5049 /* Weapon.cpp in Sources */,
+				A5611C781CA424B9003F5049 /* Elf.cpp in Sources */,
+				A5611C721CA42492003F5049 /* Map.cpp in Sources */,
+				A5611C7E1CA42523003F5049 /* Paladin.cpp in Sources */,
 				A7511EBD1CA1A6F900BAA76A /* main.cpp in Sources */,
+				A5611C7B1CA42505003F5049 /* Druid.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

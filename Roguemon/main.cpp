@@ -40,7 +40,7 @@ int main()
                 default:
                     break;
             }
-        }
+        }//pollevent
         window.display();
         window.clear();
     } //game loop
