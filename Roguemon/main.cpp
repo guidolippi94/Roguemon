@@ -1,7 +1,7 @@
 #include <SFML/Audio.hpp>
 #include <SFML/Graphics.hpp>
 
-#include "ResourcePath.hpp"
+
 
 int main()
 {
@@ -11,8 +11,10 @@ int main()
     sf::RenderWindow window(sf::VideoMode(screenDimension.x, screenDimension.y), "Roguemon");
     
     while(window.isOpen()){
+        
         window.clear();
         sf::Event event;
+        
         while(window.pollEvent(event)){
             
             switch(event.type){
@@ -24,6 +26,7 @@ int main()
             }
             
             switch (event.key.code) {
+                    
                 case sf::Keyboard::Up:
                     source.y=Up;
                     break;
@@ -41,6 +44,8 @@ int main()
                     break;
             }
         }//pollevent
+        
+        
         window.display();
         window.clear();
     } //game loop

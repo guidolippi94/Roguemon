@@ -5,4 +5,11 @@
 
 #include <stdio.h>
 
+class Tile {
+    
+public:
+    
+    
+    };
+
 #endif /* Tile_hpp */
